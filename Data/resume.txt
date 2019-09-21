@@ -1,0 +1,79 @@
+Steven Gregoire
+Hingham, MA 02043 | (617) 733-6648 | steveg93@gmail.com
+https://www.linkedin.com/in/sgregoire93/
+	https://github.com/SteveG1993
+
+Data Scientist/Analyst seeks to enable a successful company to realize strategic market advantage through the delivery of intelligence-enabled products or services.
+
+•	Advanced Analytics: SQL | Tableau | Jupyter
+•	Machine Learning: Neural Networks | Time-series | NLP
+•	Programming: Python | .NET | T-SQL, PL/SQL
+•	Software Engineering: SDLC | Git | Agile Scrum
+•	Cloud: Amazon Web Services, Google Cloud Platform
+
+WORK EXPERIENCE
+
+Enel X North America, Boston, MA
+Senior Data Analytics Expert, 11/2018 - Present
+
+	Ensured reliable and timely access to market pricing data for energy market advisory team. Sought out data from Independent System Operators (ISOs) and 3rd party data services. Ingested data using HTTP requests, FTP, and REST APIs.
+	Enhanced in-house applications and developed Excel models used for budgeting, forecasting, and risk management activities.
+	Provided ad-hoc analysis of budget data for Enel X strategic clients.
+	Redesigned System Peak-Predictor application used to notify customers of possible seasonal peak energy demand events. Worked closely with Enel X marketing group to integrate CSS and dynamic data elements into notification email.
+
+Automatic Data Processing (ADP), Roseland, NJ
+Lead Applications Developer, 01/2003 – 09/2017
+
+	Developed HR benefits enrollment, premium, and payroll reports for ADP’s Human Capital Management products using Business Objects and Oracle PL/SQL. Supported existing reports. Achieved a zero-defect backlog.
+	Secured new business by developing PeopleSoft to ADP interfaces.
+	Led a globally distributed Agile development team as a Scrum Master. Facilitated scrum ceremonies. Managed stakeholder expectations, cleared blockers, protected the team from distractions, and delivered consistently on time.
+	Hands-on experience in all aspects of the software development life cycle from requirements to development, testing, deployment, and support. Participated in the company-wide transition from Waterfall to Agile methodologies.
+
+Univision, Teaneck, NJ
+Senior Report Developer, 05/2010 – 12/2012
+
+	Developed customized reporting for accounts payable, accounts receivable/collections, and order management functions as part of an Oracle E-business implementation.
+	Streamlined the financial close process for the accounting team by publishing data sources using Tableau Server Business Intelligence platform.
+	Refined ETL scripts and stored procedure driven data transformations from advertising traffic systems resulting in fewer data feed issues and a quicker on-air to bill process
+	Acted as point-of-contact for Tableau. Created FAQs and how-to documents. Conducted training sessions with Univision staff.
+
+ERT, Boston, MA
+Data Delivery Engineer, 01/2008 – 09/2009
+	Created custom SAS data sets from data gathered from Phase 3 clinical trials.
+	Served as technical SME for clinical study teams. Provided feasibility/time estimates for data related deliverables.
+	Implemented Oracle E-Business Suite. Created PL/SQL scripts to migrate data from Great Lakes accounting software to Oracle.
+	Reduced costs by developing service-level reporting to detect projects with expenses exceeding contract maximums.
+
+Eversource, Westwood, MA
+Senior Research Analyst, 01/2003 – 10/2007
+
+	Provided operational data analytics for electric smart meter pilot programs. Used meter age, data quality, read history to prioritize meter replacements.
+	Established report controls around key electricity metering and billing operations to improve billing timeliness for commercial/industrial accounts. Developed meter reading reports tracking electric/gas meter reading performance against established SLAs.
+	Designed Subscription Automation System for delivering energy usage data to customers and other market participants. The software managed the fee-based subscription service generating over $100,000 annually.
+
+SKILLS
+
+Languages: Oracle PL/SQL, T-SQL, Python, .NET 4.x, Java
+Databases: Microsoft SQL Server, Oracle 12, Microsoft Access, MongoDB, NoSQL databases, MySQL, Postgres, Amazon RDS, Other ANSI compliant RDBMS
+Software: Tableau, Crystal Reports, SAP Business Objects, Oracle E-Business, SAS
+Oracle: Oracle PL/SQL, Stored Procedures, Functions, Triggers, Packages, Subqueries, Analytical Functions, Query optimization/ tuning using Explain Plan, ETL using Oracle BULK processing
+Other: DOS, UNIX and Linux Scripting, Java, Object-oriented programming OOP, JSON, VBA, T-SQL, Excel pivot tables, Regex, CSS, HTML
+Cloud: Google BigQuery, GCP, Amazon Web Services Compute EC2
+Development: Toad, SQL Navigator, MongoDB Compass, Eclipse, Anaconda, Jupyter, VS Code
+Version Control: Git, Github, Bitbucket, Subversion (SVN), Crucible, Sourcetree
+Planning: Rally, Jira, Confluence
+Deployment: Jenkins, Splunk
+EDUCATION
+
+General Assembly Data Science Immersive
+	Completed a 480 hour, 12-week immersive program. Applied machine learning/deep learning algorithms to real-world problems.
+	Techniques
+	Hypothesis Testing, Statistical Modelling, NLP, Natural Language Processing, Data Mining, Time-Series Analysis, Spatial Analysis, Web Scraping
+	Methods
+	Machine Learning, Supervised Learning, Regression, Classification, Generalized Linear Models, Linear Discriminant Analysis, Feature Selection, Support Vector Machines, SVM, Gradient Descent, Nearest Neighbors, Naïve Bayes, Decision Trees, Ensemble Methods, Supervised Neural Networks, Clustering, LSTM, Statistics
+	Languages
+	Python, Scala (Databricks),
+	Packages
+	Scikit-Learn, SciPy, TensorFlow, Keras, NLTK, Flask, NumPy, Pandas, Matplotlib, Bokeh
+
+University of Rhode Island, Major: English, Minor: Speech Communication

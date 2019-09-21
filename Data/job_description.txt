@@ -1,0 +1,25 @@
+Senior Data Analyst - DSME , Alexa Data Services
+Job ID: 842997 | Amazon.com Services, Inc.
+DESCRIPTION
+Are you excited and passionate about delivering advanced analytics that directly influence the Alexa user experience? Do you see yourself as a champion of innovating on behalf of the customer by turning data insights into action? Come join Alexa Data Services team as Data SME!
+
+Alexa and Echo are literally shaping the future of voice recognition and cloud-based content/services. Alexa is the name of the Amazon cloud service and the brain that powers Echo. Alexa is the deep learning engine that answers questions, plays music, reads the news and more—instantly. Our goal is to deliver the absolute perfect communication experience to our customers. Alexa Data Services team enables Alexa deep learning by providing Ground-Truth data to the Alexa engine.
+
+Alexa Data Services is seeking an experienced Sr. Data Analyst with a strong track record of taking on end-to-end ownership and delivering on large scale solutions in a fast-paced and dynamic business environment. This person will be a creative problem solver who is obsessed with delivering the best customer experience, as well as, a highly analytical, team-oriented individual with excellent communication skills. The candidate will work with Alexa Machine Learning scientists to identify, extract, transform Alexa data from internal tools and pipe this data for Ground-Truth processing. The ideal candidate will have a rock-solid background in data analysis, including experience extracting and manipulating data using SQL and Python.
+
+Primary Responsibilities:
+· Work with Machine Learning scientists to use statistical techniques to find the data that matters most.
+· Analyze and understand structured and unstructured data systems like Redshift/Oracle and JSON structures.
+· Build on-demand Python and SQL scripts to select, validate and upload the data to data processing application system.
+· Support and enhance the current scripts and work with Data and Software engineers to ensure pipeline stability.
+· Communicate analysis and insights to stakeholders and business leaders, both verbally and in writing.
+
+
+BASIC QUALIFICATIONS
+· Bachelor's degree or higher in a quantitative/technical field (e.g. Computer Science, Information Systems, Statistics, Engineering).
+· 3+ years of relevant work experience in Business Analytics dealing with large complex data scenarios.
+· 1+years of experience with Python or at least one similar scripting language.
+· Working knowledge of RDBMS and data mining using SQL, ETL, data warehouse.
+· Proficiency in Excel (including VBA, Pivot Tables, array functions, Power Pivots, etc.)
+· Experience working with JSON files
+· Experience communicating and presenting key findings with both business and technical teams.
