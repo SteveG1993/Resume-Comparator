@@ -20,11 +20,14 @@ job
 including
 id
 Inc
-are
 job
 candidate
 id
 inc
+qualification
 qualifications
 dealing
 future
+excellent
+id
+excited

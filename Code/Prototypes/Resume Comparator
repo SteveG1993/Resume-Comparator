@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Oct  5 09:50:24 2019
+
+@author: steve
+"""
+
+from nltk import word_tokenize, pos_tag
+from nltk.corpus import stopwords
+import codecs
+from nltk.stem.wordnet import WordNetLemmatizer
+lem = WordNetLemmatizer()
+
+# NLTK's default english stopwords
+default_stopwords = stopwords.words('english')
+
+#File Locations
+
+document_folder = '../data/'
+resume_file = document_folder + 'resume.txt'
+job_description_file = document_folder + 'job_description.txt'
+custom_stopwords_file = document_folder + 'custom_stopwords.txt'
+
+custom_stopwords = codecs.open(custom_stopwords_file, 'r', 'utf-8').read().splitlines()
+all_stopwords = list(map(str.lower,set(default_stopwords + custom_stopwords)))
+                        
+minimum_word_length = 2
+
+desired_parts_of_speach = set(['NN'
+                   ,'NNP'
+                   ,'NNS'
+                   ,'NNPS']
+                 )
+
+
+
+def process_text(text,stopwords,pos=None,lemmatizer=None):
+    tokens = word_tokenize(text)
+    tags = pos_tag(tokens)
+    lem = lemmatizer
+
+    if pos is not None:
+        words = [w for w,pos in tags if pos in pos]
+        
+    words = [t for t in tokens if t.isalpha()]
+    words = [w for w in words if len(w)>=minimum_word_length]
+    words = [w for w in words if not w.isnumeric()]
+    words = [w.lower() for w in words]
+    words = [w for w in words if w not in all_stopwords]
+
+    
+    if lemmatizer is not None:
+        words = [lem.lemmatize(w) for w in words]
+#     words = [nouns_only(w) for w in words]
+#     words = map(nouns_only, words)
+
+    return words
+
+def pos_inspection(text,pos):
+    return 
+    
+
+
+
+f_resume=open(resume_file,'r',)
+f_desc = open(job_description_file,'r')
+
+raw_resume =f_resume.read()
+raw_desc = f_desc.read()
+
+resume_words = process_text(raw_resume,all_stopwords,desired_parts_of_speach,lem)
+job_words = process_text(raw_desc,all_stopwords,desired_parts_of_speach,lem)
+
+resume_set = set(resume_words)
+job_set = set(job_words)
+
+
+
+matching_words = resume_set.intersection(job_set)
+missing_words = job_set-resume_set
+
+
+print ('You resume matches at ',"{0:.0%}".format(len(matching_words)/len(job_words)))
+
+
+print('Your resume is missing the following words (naive): ',missing_words)
+
+
