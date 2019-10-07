@@ -5,6 +5,9 @@ Created on Sat Oct  5 09:50:24 2019
 
 @author: steve
 """
+import nltk
+#nltk.download('averaged_perceptron_tagger')
+
 
 from nltk import word_tokenize, pos_tag
 from nltk.corpus import stopwords
@@ -93,5 +96,30 @@ print ('You resume matches at ',"{0:.0%}".format(len(matching_words)/len(job_wor
 
 
 print('Your resume is missing the following words (naive): ',missing_words)
+
+
+
+import requests
+
+
+url = 'https://www.amazon.jobs/en/jobs/746354/research-science-manager-nlu-analytics'
+r = requests.get(url)
+html = r.text
+
+from bs4 import BeautifulSoup
+
+
+# Create a BeautifulSoup object from the HTML
+soup = BeautifulSoup(html, "html5lib")
+
+textlist = []
+
+for node in soup.findAll('p'):
+    for text in node.findAll(text=True):
+        textlist.append(text)
+
+raw_text = ''.join(textlist)
+
+print(raw_text)
 
 
