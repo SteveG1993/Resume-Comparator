@@ -6,9 +6,9 @@ Highlight skills and technologies specified in the job description that are miss
 
 
 Future features
-Highlight most frequent words in job description
-Generate a list of essential resume words all most resumes should have
-refine scoring function to using word weighting
+Highlight most frequent words in job description - 
+Generate a list of essential resume words all most resumes should have - 
+refine scoring function to using word weighting - 
 Capture all job descriptions in a database to build a list of most important skills/qualifications
 
 
