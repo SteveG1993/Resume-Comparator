@@ -31,3 +31,8 @@ future
 excellent
 id
 excited
+person
+computer
+echo
+background
+music
